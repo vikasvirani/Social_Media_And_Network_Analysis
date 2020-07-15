@@ -1,0 +1,18 @@
+CREATE (G_algore:GROUP {userid:'algore'} )
+CREATE (G_EPA:GROUP {userid:'EPA'} )
+CREATE (G_digg:GROUP {userid:'digg'} )
+CREATE (G_ClimateGroup:GROUP {userid:'ClimateGroup'} )
+CREATE (G_climatecamp:GROUP {userid:'climatecamp'} )
+CREATE (G_ExtinctionR:GROUP {userid:'ExtinctionR'} )
+CREATE (G_KHayhoe:GROUP {userid:'KHayhoe'} )
+CREATE (G_earthinstitute:GROUP {userid:'earthinstitute'} )
+CREATE (G_Strike4Youth:GROUP {userid:'Strike4Youth'} )
+CREATE (G_GretaThunberg:GROUP {userid:'GretaThunberg'} )
+CREATE (G_UNFCCC:GROUP {userid:'UNFCCC'} )
+CREATE 
+ (U_1098630688625037313)-[:DIRECTED]->(G_UNFCCC),
+ (U_786812508388495360)-[:DIRECTED]->(G_UNFCCC),
+ (U_1100273805853904901)-[:DIRECTED]->(G_UNFCCC),
+ (U_4247308572)-[:DIRECTED]->(G_UNFCCC),
+ (U_1100264037814657024)-[:DIRECTED]->(G_UNFCCC),
+ (U_612223700)-[:DIRECTED]->(G_UNFCCC)
